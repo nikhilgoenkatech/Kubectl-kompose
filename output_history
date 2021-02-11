@@ -1,0 +1,621 @@
+    1  exit
+    2  screen
+    3  screen ls
+    4  which screen
+    5  exit
+    6  source ~/.screenrc 
+    7  vim ~/.screenrc 
+    8  :q
+    9  source ~/.screenrc 
+   10  exit
+   11  cd k8prometheus/
+   12  sudo bash -c './keptn-in-a-box.sh &'
+   13  'less +F /tmp/install.log'
+   14  less +F /tmp/install.log
+   15  microk8s kubectl get pods
+   16  vim CODEOWNERS 
+   17  vim resources/ingress/gen/ssl/.README 
+   18  vim resources/ingress/k8-api.yaml 
+   19  vim /tmp/install.log 
+   20  snap rm microk8s
+   21  snap remove microk8s
+   22  vim keptn-in-a-box.sh 
+   23  vim .profile 
+   24  which git
+   25  screen
+   26  vim ~/.screenrc
+   27  screen 
+   28  screen 0d
+   29  screen -d
+   30  screen -a
+   31  screen ls
+   32  screen 
+   33  screen -r 
+   34  git clone https://github.com/nikhilgoenkatech/k8prometheus.git
+   35  cd k8prometheus/
+   36  vim functions.sh keptn-in-a-box.sh 
+   37  vim functions.sh keptn-in-a-box.sh -o
+   38  ls -lrt
+   39  cd k8prometheus/
+   40  vim functions.sh 
+   41  vim keptn-in-a-box.sh 
+   42  ./functions.sh 
+   43  vim functions.sh 
+   44  ./keptn-in-a-box.sh 
+   45  kubectl get -A pods
+   46  users
+   47  cd docker-compose-bank-app
+   48  mkdir docker-compose-bankapp
+   49  cd docker-compose-bankapp/
+   50  vim Dockerfile
+   51  vim docker-compose.yml
+   52  vim Dockerfile 
+   53  curl -L https://github.com/kubernetes/kompose/releases/download/v1.22.0/kompose-linux-amd64 -o kompose
+   54  chmod +x kompose
+   55  sudo mv ./kompose /usr/local/bin/compose
+   56  compose convert
+   57  kubectl apply -f mongo-deployment.yaml
+   58  kubectl apply -f mongo-service.yaml
+   59  kubectl apply -f app-deployment.yaml 
+   60  kubectl apply -f app-service.yaml
+   61  kubectl get pods -A
+   62  vim app-deployment.yaml 
+   63  vim app-service.yaml 
+   64  kubectl get pods -A
+   65  vim docker-compose-bankapp/
+   66  cd docker-compose-bankapp/
+   67  vim app-deployment.yaml 
+   68  vim app-service.yaml 
+   69  vim mongo-deployment.yaml 
+   70  docker build -t app .
+   71  docker build . -t app
+   72  vim Dockerfile 
+   73  docker build . -t app
+   74  kubectl get pods -A
+   75  kubectl apply -f app-deployment.yaml 
+   76  kubectl get pods -A
+   77  kubectl apply -f app-service.yaml 
+   78  kubectl get pods -A
+   79  compose convert
+   80  kubectl apply -f app-deployment.yaml 
+   81  kubectl apply -f app-service.yaml 
+   82  kubectl get pods -A
+   83  kubectl pods -A
+   84  kubectl get pods -A
+   85  docker enable registry
+   86  microk8s.enable registry
+   87  docker images
+   88  docker push app
+   89  docker save app > app.tar
+   90  microk8s ctr image import app.tar
+   91  kubectl get pods -A
+   92  cd docker-compose-bankapp/
+   93  kubectl apply -f app-deployment.yaml
+   94  kubectl apply -f app-service.yaml
+   95  kubectl apply -f mongo-deployment.yaml 
+   96  kubectl apply -f mongo-service.yaml 
+   97  kubectl get pods -A
+   98  vim app-deployment.yaml 
+   99  docker images
+  100  kubectl scale --replicas=0 deployment/app-58bcb9f96f-jnj5z
+  101  kubectl scale --replicas=0 deployment/default
+  102  kubectl scale --replicas=0 deployment/app
+  103  docker images
+  104  kubectl get pods -A
+  105  kubectl apply -f app-deployment.yaml
+  106  kubectl get pods -A
+  107  microk8s ctr images ls
+  108  microk8s ctr images ls | grep app
+  109  kubectl scale --replicas=0 deployment/app
+  110  kubectl get pods -A
+  111  kubectl apply -f app-deployment.yaml
+  112  kubectl get pods -A
+  113  kubectl scale --replicas=0 deployment/app
+  114  vim app-deployment.yaml 
+  115  microk8s ctr images ls | grep app
+  116  vim mongo-deployment.yaml 
+  117  kubectl scale --replicas=0 deployment/app
+  118  kubectl apply -f app-service.yaml 
+  119  kubectl apply -f app-deployment.yaml
+  120  kubectl get pods -A
+  121  vim app-deployment.yaml 
+  122  kubectl scale --replicas=0 deployment/app
+  123  kubectl apply -f app-deployment.yaml
+  124  kubectl apply -f app-service.yaml 
+  125  kubectl get pods -A
+  126  kubectl scale --replicas=0 deployment/app
+  127  kubectl get pods -A
+  128  docker images
+  129  vim app-deployment.yaml 
+  130  compose up
+  131  compose --help
+  132  vim app-deployment.yaml 
+  133  kubectl apply -f app-service.yaml 
+  134  kubectl apply -f app-deployment.yaml 
+  135  kubectl get pods -A
+  136  kubectl logs 
+  137  kubectl logs app-7df9b9c558-hh9lk
+  138  vim /docker-compose-sample-bankApp/node_modules/mongodb-core/lib/topologies/server.js
+  139  kubectl get pods -A
+  140  vim app-deployment.yaml 
+  141  vim Dockerfile 
+  142  vim app-deployment.yaml 
+  143  kubectl scale --replicas=0 deployment/app
+  144  kubectl apply -f app-deployment.yaml 
+  145  kubectl get pods -A
+  146  vim app-
+  147  vim app-deployment.yaml 
+  148  kubectl scale --replicas=0 deployment/app
+  149  kubectl apply -f app-deployment.yaml 
+  150  kubectl get pods -A
+  151  kubectl logs sample-bank-7df9b9c558-mb476
+  152  ifconfig -a
+  153  nslookup 49.181.48.168
+  154  traceroute6 49.181.48.168
+  155  kubectl get pods -A
+  156  kubectl logs sample-bank-7df9b9c558-mb476
+  157  kubectl get pods -A
+  158  mkdir /docker-compose
+  159  cd /docker-compose/
+  160  vim docker-compose.yml
+  161  docker-compose up
+  162  apt  install docker-compose
+  163  docker-compose up
+  164  docker ps -a
+  165  kompose up
+  166  exit
+  167  kompose up
+  168  exit
+  169  docker ps -a
+  170  docker stop f7b0c79b2d82 91f5917ef424
+  171  cd docker-compose-bankapp/
+  172  cd /docker-compose/
+  173  docker-compose up
+  174  docker rmi sample-bank
+  175  docker images
+  176  docker rmi app
+  177  docker rmi dockercompose_app node mongo
+  178  docker stop sample-bank
+  179  docker stop mongo
+  180  docker rmi dockercompose_app node mongo
+  181  docker ps -a
+  182  docker-compose stop
+  183  docker rmi dockercompose_app node mongo
+  184  docker ps -a
+  185  docker-compose -help
+  186  docker-compose stop
+  187  docker-compose rm 
+  188  docker images
+  189  docker rmi mongo
+  190  docker rmi dockercompose_ap
+  191  docker rmi dockercompose_app
+  192  docker rmi node
+  193  docker-compose up
+  194  docker-compose down
+  195  docker images
+  196  cd -
+  197  kubectl apply -f mongo-deployment.yaml 
+  198  kubectl apply -f mongo-service.yaml 
+  199  kubectl apply -f app-deployment.yaml 
+  200  kubectl apply -f app-service.yaml 
+  201  kubectl get pods -A
+  202  kubectl scale --replicas=0 deployment/<your-deployment>
+  203  kubectl scale --replicas=0 deployment/app
+  204  kubectl get pods -A
+  205  kubectl scale --replicas=0 deployment/sample-bank
+  206  vim Dockerfile docker-compose.yml 
+  207  vim Dockerfile docker-compose.yml -o
+  208  cp docker-compose.yml old.docker-compose.yml
+  209  snap install kompose
+  210  kompose --help
+  211  kompose up
+  212  vim docker-compose.yml 
+  213  mkdir /home/ubuntu/redis-docker-compose
+  214  cd /home/ubuntu/redis-docker-compose/
+  215  vim Dockerfile
+  216  vim requirements.txt
+  217  vim app.py
+  218  ls -lrt
+  219  vim docker-compose.yml
+  220  kompose up
+  221  vim docker-compose.yml 
+  222  kompose up
+  223  vim docker-compose.yml 
+  224  kompose up
+  225  vim ../docker-compose-bankapp/docker-compose.yml 
+  226  vim docker-compose.yml 
+  227  kompose up
+  228  kompose convert
+  229  kompose up
+  230  systemctl service docker restart
+  231  systemctl service dockerd restart
+  232  sudo chmod 666 /var/run/docker.sock
+  233  kompose up
+  234  systemctl service dockerd sgtop
+  235  systemctl start docker
+  236  systemctl restart docker
+  237  systemctl status docker
+  238  kompose up
+  239  ls -lrt /var/run/docker.sock
+  240  chmod 777 docker
+  241  chmod 777 /var/run/docker.sock
+  242  kompose up
+  243  ls -lrt /var/run/docker.sock
+  244  chown root:root /var/run/docker.sock
+  245  ls -lrt /var/run/docker.sock
+  246  kompose up
+  247  systemctl restart docker
+  248  ls -lrt /var/run/docker.sock
+  249  exit
+  250  chmod 777 *
+  251  exit
+  252  chown ubuntu:ubuntu *
+  253  ls -lrt
+  254  exit
+  255  kompose up
+  256  chown ubuntu:ubuntu *
+  257  chown root:root *
+  258  kompose up
+  259  usermod -aG docker root
+  260  Sudo chmod 777 /var/run/docker.sock
+  261  sudo chmod 777 /var/run/docker.sock
+  262  kompose up
+  263  vim docker-compose.yml 
+  264  kompose up
+  265  cat /etc/group | grep docker
+  266  docker pullredis
+  267  docker pull redis
+  268  docker images
+  269  kompose up
+  270  vim docker-compose.yml 
+  271  kompose up
+  272  docker build . -t mage
+  273  docker images
+  274  vim docker-compose.yml 
+  275  kompose up
+  276  vim docker-compose.yml 
+  277  kompose up
+  278  vim docker-compose.yml 
+  279  kompose up
+  280  vim docker-compose.yml 
+  281  kompose up
+  282  vim app.py 
+  283  kompose up --verbose
+  284  netstat -a | grep 6443
+  285  kubectl cluster info
+  286  kubectl cluster-info
+  287  kompose up --verbose   sudo iptables -P FORWARD ACCEPT
+  288  kompose up --verbose
+  289  kompose up
+  290  sudo systemctl restart docker
+  291  kompose up
+  292  sudo kompose up
+  293  sudo kompose --verbose up
+  294  vim /tmp/kompose-image-build-662835095
+  295  sudo vim /tmp/kompose-image-build-662835095
+  296  sudo vim /tmp/snap.kompose/tmp/kompose-image-build-968423491 
+  297  rm -rf/tmp/snap.kompose/tmp/kompose-image-build-*
+  298  rm -rf /tmp/snap.kompose/tmp/kompose-image-build-*
+  299  sudo kompose --verbose up
+  300  groupadd docker
+  301  sudo usermod -aG docker $USER
+  302  newgrp docker
+  303  kompose up
+  304  ls -lrt
+  305  users
+  306  whomi
+  307  whomai
+  308  whoami
+  309  newgrp docker
+  310  kompose up
+  311  vim docker-compose.yml 
+  312  kompose up
+  313  vim docker-compose.yml 
+  314  kompose up
+  315  vim docker-compose.yml
+  316  kompose up
+  317  cd docker-compose-bankapp/
+  318  kubectl scale --replicas=0 deployment/mongo
+  319  kubectl apply -f mongo-deployment.yaml 
+  320  kubectl apply -f mongo-service.yaml 
+  321  kubectl get pods -A
+  322  kubectl apply -f app-deployment.yaml 
+  323  kubectl get pods -A
+  324  kubectl apply -f app-service.yaml 
+  325  kubectl get pods -A
+  326  kubectl logs app-7df9b9c558-grwst
+  327  docker build -t app .
+  328  docker images
+  329  docker rmi app
+  330  docker build -t app .
+  331  docker images
+  332  docker save app > app.tar
+  333  microk8s ctr image import app.tar 
+  334  vim app-deployment.yaml 
+  335  kubectl apply -f app-deployment.yaml 
+  336  kubectl apply -f app-service.yaml 
+  337  kubectl get pods -A
+  338  kubectl scale --replicas=0 deployment/mongo
+  339  kubectl scale --replicas=0 deployment/app
+  340  kubectl get pods -A
+  341  kubectl apply -f mongo-deployment.yaml 
+  342  kubectl apply -f mongo-service.yaml 
+  343  kubectl apply -f app-deployment.yaml 
+  344  kubectl apply -f app-service.yaml 
+  345  kubectl get pods -A
+  346  kubectl scale --replicas=0 deployment/app
+  347  kubectl scale --replicas=0 deployment/monog
+  348  kubectl scale --replicas=0 deployment/mongo
+  349  kubectl apply -f app-deployment.yaml -n dynatrace
+  350  kubectl create ns dynatrace
+  351  kubectl apply -f app-deployment.yaml -n dynatrace
+  352  kubectl apply -f app-service.yaml -n dynatrace
+  353  kubectl apply -f mongo-deployment.yaml -n dynatrace
+  354  kubectl apply -f mongo-service.yaml -n dynatrace
+  355  kubectl get pods -A
+  356  kubectl logs app-7df9b9c558-rxq7n
+  357  kubectl logs -n dynatrace app-7df9b9c558-rxq7n
+  358  kubectl get svc
+  359  kubectl get deployment
+  360  kompose up
+  361  snap install kompose
+  362  kompose up
+  363  kompose up -v
+  364  kompose -v up
+  365  sudo usermod -aG docker $USER
+  366  sudo setfacl --modify user:$USER:rw /var/run/docker.sock
+  367  kompose up -v
+  368  sudo setfacl --modify user:<user name or ID>:rw /var/run/docker.sock
+  369  sudo setfacl --modify user:root:rw /var/run/docker.sock
+  370  kompose up -v
+  371  bash
+  372  microk8s.enable storage dns
+  373  cd redis-docker-compose/
+  374  kompose up
+  375  microk8s.kubectl create namespace compose
+  376  vim ~/.kube/config 
+  377  microk8s.kubectl config view --raw > output
+  378  vim output 
+  379  vimdiff ~/.kube/config output 
+  380  helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+  381  snap install helm
+  382  snap install helm --classic
+  383  helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+  384  helm repo add stable //charts.helm.sh/stable"
+  385  helm repo add stable https://charts.helm.sh/stable
+  386  helm install etcd-operator stable/etcd-operator --namespace compose
+  387  cd k8prometheus/
+  388  ls -lrt
+  389  wget https://github.com/docker/compose-on-kubernetes/releases/tag/v0.5.0-alpha1
+  390  ls -lrt
+  391  unalias ls
+  392  ls -lrt
+  393  wget https://github.com/docker/compose-on-kubernetes/releases/download/v0.4.25-alpha1/installer-linux
+  394  dpkg installer-linux 
+  395  file installer-linux 
+  396  ./ins
+  397  installer-linux
+  398  ls -lrt installer-linux 
+  399  chmod +x installer-linux 
+  400  installer-linux
+  401  ./installer-linux
+  402  microk8s disable dns
+  403  ./installer-linux
+  404  wget https://github.com/docker/compose-on-kubernetes/releases/tag/v0.5.0-alpha1
+  405  chmod +x v0.5.0-alpha1
+  406  ./v0.5.0-alpha1 
+  407  microk8s.enable storage dns
+  408  sudo snap alias microk8s.kubectl kubectl
+  409  microk8s.inspect
+  410  microk8s.kubectl create namespace compose
+  411  vim ~/.kube/config 
+  412  microk8s.kubectl config view --raw > ~/.kube/config
+  413  helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+  414  helm repo add stable https://charts.helm.sh/stable
+  415  helm install etcd-operator stable/etcd-operator --namespace compose
+  416  kubectl get pods --namespace compose
+  417  vim compose-etcd.yaml
+  418  kubectl apply -f compose-etcd.yaml
+  419  kubectl get pods --namespace compose
+  420  ./installer-linux -namespace=compose -etcd-servers=http://compose-etcd-client:2379.
+  421  microk8s.kubectl api-versions | grep compose
+  422  microk8s.kubectl api-versions 
+  423  vim docker-compose.yml
+  424  docker stack deploy --orchestrator=kubernetes -c docker-compose.yml hellokube
+  425  kubectl get all -n docker
+  426  chmod +x kompose 
+  427  sudo mv ./kompose /usr/local/bin/kompose
+  428  wget https://raw.githubusercontent.com/kubernetes/kompose/master/examples/docker-compose.yaml
+  429  kompose up
+  430  vim docker-compose
+  431  vim docker-compose.y
+  432  vim docker-compose.yaml 
+  433  kompose up
+  434  vim docker-compose
+  435  vim docker-compose.yaml 
+  436  curl -L https://github.com/kubernetes/kompose/releases/download/v1.22.0/kompose-linux-amd64 -o kompose
+  437  chmod +x kompose
+  438  sudo mv ./kompose /usr/local/bin/kompose
+  439  kompose up
+  440  docker pull nikhilgoenka/dttool
+  441  docker pull nikhilgoenka/dynatrace-healthtool
+  442  docker pull nikhilgoenka/dynatrace-healthtool:3.0
+  443  docker save nikhilgoenka/dynatrace-healthtool:3.0 dttool.tar
+  444  docker save nikhilgoenka/dynatrace-healthtool:3.0 > dttool.tar
+  445  microk8s ctr image import dttool.tar
+  446  microk8s image ls
+  447  microk8s images ls 
+  448  microk8s ctr images ls
+  449  microk8s ctr images ls | health
+  450  microk8s ctr images ls | grep health
+  451  vim dttool-app.yaml
+  452  kubectl apply -f dttool-app.yaml 
+  453  kubectl pods -A
+  454  kubectl get pods -A
+  455  vim dttool-app.yaml 
+  456  microk8s inspect
+  457  microk8s kubectl get all
+  458  kubectl get services polls
+  459  kubectl get services 
+  460  cd docker-compose-sample-bankApp/
+  461  kompose convert docker-compose.yml 
+  462  kompose  docker-compose.yml 
+  463  kompose --help
+  464  kompose convert 
+  465  kubectl apply -f app-deployment.yaml, mongo-deployment.yaml
+  466  microk8s service mongo-service
+  467  microk8s --help
+  468  kompose docker-compose.yml up
+  469  kompose --file docker-compose.yml up
+  470  microk8s svc mongo-deploy start
+  471  vim mongo-service.yaml 
+  472  microk8s enable mongo
+  473  kubectl apply -n dynatrace -f app-service.yaml,mongo-service.yaml,app-deployment.yaml, mongo-deployment.yaml
+  474  microk8s kubectl apply -n dynatrace -f app-service.yaml,mongo-service.yaml,app-deployment.yaml, mongo-deployment.yaml
+  475  microk8s kubectl apply -n dynatrace -f app-service.yaml
+  476  microk8s kubectl apply -n dynatrace -f mongo-service.yaml
+  477  microk8s kubectl apply -n dynatrace -f app-deployment.yaml
+  478  microk8s kubectl apply -n dynatrace -f mongo-deployment.yaml
+  479  microk8s inspect
+  480  kubectl get pods -A
+  481  vim mongo-service.yaml 
+  482  kubectl get service
+  483  microk8s get pods -A
+  484  kubectl get pods -A
+  485  kubectl get pods -A | grep 13d
+  486  kubectl get pods -A
+  487  kubectl get service
+  488  #microk8s kubectl port-forward app --address 0.0.0.0 3000:3000
+  489  microk8s kubectl port-forward app --address 0.0.0.0 3000:3000
+  490  microk8s 
+  491  microk8s stop --help
+  492  microk8s  inspect
+  493  kubectl get -n -A
+  494  kubectl get -A namespace
+  495  cd ../
+  496  vim k8prometheus/functions.sh 
+  497  cd k8prometheus/
+  498  vim functions.sh resources/jenkins/deploy-jenkins.sh -o
+  499  kubectl get pods -
+  500  kubectl get pods -a
+  501  kubectl get pods -A
+  502  cd ../
+  503  vim docker-compose
+  504  ls -lrt docker-compose
+  505  ls -lrt docker-compose-bankapp/
+  506  kubectl apply -f mongo-deployment.yaml -n dynatrace
+  507  cd docker-compose-bankapp/
+  508  kubectl apply -f mongo-deployment.yaml -n dynatrace
+  509  kubectl apply -f mongo-service.yaml -n dynatrace
+  510  kubectl apply -f app-deployment.yaml -n dynatrace
+  511  kubectl apply -f app-service.yaml -n dynatrace
+  512  kubectl get pods -A
+  513  kubectl scale --replicas=0 deployment/mongo
+  514  kubectl scale --replicas=0 deployment/app
+  515  kubectl get pods -A
+  516  kubectl apply -f mongo-service.yaml -n default
+  517  kubectl apply -f mongo-deployment.yaml -n default
+  518  kubectl apply -f app-deployment.yaml -n default
+  519  kubectl apply -f app-service.yaml -n default
+  520  kubectl get pods -A
+  521  kubectl get pods -A
+  522  kubectl inspect
+  523  microk8s inspect
+  524  kubectl get services
+  525  microk8s kubectl port-forward -n monitoring service/grafana --address 0.0.0.0 3000:3000
+  526  microk8s kubectl port-forward -n default service/app --address 0.0.0.0 3000:3000
+  527  microk8s kubectl port-forward -n default service/app --address 0.0.0.0 3000:3000 &
+  528  microk8s kubectl port-forward -n default service/mongo --address 0.0.0.0 27107:27107 &
+  529  vim mongo-service.yaml 
+  530  microk8s kubectl port-forward -n default service/mongo --address 0.0.0.0 27017:27017 &
+  531  kubectl get services
+  532  kubectl get deployments app
+  533  kubectl get deployments bankapp
+  534  kubectl get pods -a
+  535  kubectl get pods -A
+  536  kubectl get deployments app
+  537  kubectl get deployments bank-app-deployment
+  538  kubectl get deployments -n default app
+  539  vim app-deployment.yaml 
+  540  kubectl apply -f app-deployment.yaml -n default
+  541  kubectl get deployments -n default app
+  542  kubectl get deployments 
+  543  kubectl get pods -A
+  544  kubectl get deployments 
+  545  kubectl container logs app-7df9b9c558-qtfmk
+  546  kubectl  logs app-7df9b9c558-qtfmk
+  547  kubectl enable --help
+  548  kubectl enable -h
+  549  kubectl enable 
+  550  kubectl expose deployment app --name=bank-app
+  551  kubectl get services
+  552  curl -kv 10.152.183.81
+  553  microk8s.enable dns ingress
+  554  kubectl get services
+  555  kubectl describe service bank-app
+  556  kubectl cluster info
+  557  kubectl cluster-info
+  558  kubectl expose deployment app --type=NodePort --name=bank-app
+  559  kubectl expose deployment app --type=NodePort --name=bank-app-2
+  560  kubectl get services
+  561  kubectl describe service bank-app-2
+  562  kubectl expose deployment app --type=NodePort --name=bank-app-3 --port 3000
+  563  kubectl describe service bank-app-3
+  564  kubectl get services
+  565  kubectl describe service bank-app-3
+  566  kubectl get pods -A
+  567  kubectl scale --replicas=0 deployment/app-7df9b9c558-rxq7n
+  568  kubectl scale --replicas=0 deployment/app -n dynatrace
+  569  kubectl get pods -A
+  570  kubectl scale --replicas=0 deployment/mongo -n dynatrace
+  571  kubectl get pods -A
+  572  tcpdump port 32678 -v 
+  573  tcpdump port 32678 -v  > verbose-tcp-dump
+  574  vim verbose-tcp-dump 
+  575  cd docker-compose-sample-bankApp/
+  576  ls -lrt
+  577  cd ../docker-compose-bankapp/
+  578  ls -lrt
+  579  git diff
+  580  git add Dockerfile 
+  581  git add mongo-service.yaml 
+  582  git add mongo-deployment.yaml 
+  583  git add app-service.yaml 
+  584  git add app-deployment.yaml 
+  585  git add docker-compose.yml 
+  586  ls -lrt
+  587  git commit -m "First commit"
+  588  git push
+  589  git remote add origin https://github.com/nikhilgoenkatech/Kubectl-kompose.git
+  590  git push
+  591  git pending
+  592  git diff
+  593  git remove app.tar 
+  594  git rm app.tar 
+  595  git push
+  596  ls -lrt
+  597  mkdir git-push
+  598  cp * git-push/
+  599  cd git-push/
+  600  ls -lrt
+  601  echo "# Kubectl-kompose" >> README.md
+  602  git init
+  603  git add README.md
+  604  git commit -m "first commit"
+  605* 
+  606  git remote add origin https://github.com/nikhilgoenkatech/Kubectl-kompose.git
+  607  git push -u origin main
+  608  git add Dockerfile app-deployment.yaml app-service.yaml mongo-service.yaml mongo-deployment.yaml 
+  609  ls -lrt
+  610  git push
+  611  git commit "Pushing additional files"
+  612  git add Dockerfile app-deployment.yaml app-service.yaml mongo-service.yaml mongo-deployment.yaml 
+  613  git commit "Pushing additional files"
+  614  git commit -m "Pushing additional files"
+  615  git push
+  616  kubectl get pods -A
+  617  kubectl logs compose-api-566885d7b6-x492n
+  618  kubectl logs bank-app-deployment-785cfbdd9d-svx86
+  619  kubectl logs app-7df9b9c558-qtfmk
+  620  history
+  621  history > output_history
